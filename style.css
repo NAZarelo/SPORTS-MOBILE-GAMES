@@ -1,0 +1,261 @@
+body {
+    background-color: rgba(0, 123, 255, 1);
+}
+
+p {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+}
+
+header {
+    background-color: rgba(255, 152, 0, 1);
+    border-radius: 15px;
+    margin: 5px;
+    margin-left: 90px;
+}
+
+header .id {
+    text-align: right;
+    color: rgba(0, 123, 255, 1);
+    margin: 20px;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+}
+
+.logo {
+    padding: 5px;
+    text-align: right;
+}
+
+.logo h1 {
+    padding-right: 80px;
+    text-align: right;
+    color: rgba(0, 123, 255, 1);
+    font-family: Arial, sans-serif;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    padding-right: 10px;
+    margin-top: -65px;
+}
+
+nav {
+    background-color: rgba(255, 152, 0, 1);
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    width: 80px;
+}
+
+nav a {
+    display: flex;
+    background-color: rgba(0, 123, 255, 1);
+    border-right: 5px solid rgba(255, 152, 0, 1);
+    border-top: 5px solid rgba(255, 152, 0, 1);
+    border-bottom: 5px solid rgba(255, 152, 0, 1);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-decoration: none;
+    color: rgba(255, 152, 0, 1);
+}
+
+nav a img {
+    margin-left: 40px;
+}
+
+nav a h2 {
+    margin-left: 5px;
+    font-family: Arial, sans-serif;
+}
+
+.f {
+    position: relative;
+    left: -120px;
+    top: 50px;
+    width: 195px;
+    height: 50px;
+}
+
+.t {
+    position: relative;
+    left: -100px;
+    top: 70px;
+    width: 175px;
+    height: 50px;
+}
+
+.b {
+    position: relative;
+    left: -160px;
+    top: 90px;
+    width: 235px;
+    height: 50px;
+}
+
+.l {
+    position: relative;
+    left: -115;
+    top: 300px;
+    width: 170px;
+    height: 50px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.f:hover {
+    left: 0px;
+    transition: 0.5s linear;
+}
+
+.t:hover {
+    left: 0px;
+    transition: 0.5s linear;
+}
+
+.b:hover {
+    left: 0px;
+    transition: 0.5s linear;
+}
+
+.l:hover {
+    left: 0px;
+    transition: 0.5s linear;
+}
+
+.mobile_game {
+    position: fixed;
+    background-color: rgba(255, 152, 0, 1);
+    padding: 5px;
+    margin: 20px;
+    border-radius: 10px;
+    width: 350px;
+    height: 150px;
+    color: rgba(0, 123, 255, 1);
+    right: 5px;
+    top: 150px;
+    box-shadow: 0 5px 15px 0 rgba(255, 152, 0, 1);
+}
+
+.information {
+    background-color: rgba(255, 152, 0, 1);
+    padding: 5px;
+    margin: 20px;
+    border-radius: 10px;
+    color: rgba(0, 123, 255, 1);
+    width: 700px;
+    height: 150px;
+    margin-left: 120px;
+    box-shadow: 0 5px 15px 0 rgba(255, 152, 0, 1);
+}
+
+.games {
+    font-family: Arial, sans-serif;
+    color: rgba(255, 152, 0, 1);
+    text-align: center;
+}
+
+section {
+    background-color: rgba(255, 152, 0, 1);
+    color: rgba(0, 123, 255, 1);
+    margin-left: 120px;
+    border-radius: 10px;
+    width: 800px;
+    height: 500px;
+    border: 5px solid rgba(0, 77, 161, 1);
+}
+
+section h1 {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+article {
+    background-color: rgba(0, 123, 255, 1);
+    color: rgba(255, 152, 0, 1);
+    width: 250px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+article img 
+
+article h2 {
+    font-family: Arial, sans-serif;
+}
+
+.ea {
+    float: left;
+    margin-left: 100px;
+}
+
+.min {
+    float: right;
+    margin-right: 100px;
+}
+
+ul {
+    font-size: 25px;
+    font-family: Arial, sans-serif;
+}
+
+footer {
+    background-color: rgba(255, 152, 0, 1);
+    border-radius: 15px;
+    margin: 5px;
+    margin-left: 90px;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+footer h2 {
+    color: rgba(0, 123, 255, 1);
+    font-family: Arial, sans-serif;
+    margin-left: 20px;
+}
+
+footer img {
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+footer h1 {
+    color: rgba(0, 123, 255, 1);
+    font-family: Arial, sans-serif;
+    margin-left: 20px;
+}
+
+.game {
+    background-color: rgba(255, 152, 0, 1);
+    color: rgba(0, 123, 255, 1);
+    padding: 20px;
+    margin-left: 90px;
+    margin-top: 20px;
+    border-radius: 10px;
+    height: 200px;
+    width: 600px;
+    border: 5px solid rgba(0, 77, 161, 1);
+}
+
+.game img {
+    width: 200px;
+    height: 200px;
+    float: left;
+    border-radius: 10px;
+}
+
+.game a {
+    text-decoration: none;
+    color: rgba(0, 123, 255, 1);
+    font-family: Arial, sans-serif;
+}
+
+iframe {
+    margin-left: 90px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 5px solid rgba(0, 77, 161, 1);
+}
