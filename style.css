@@ -250,6 +250,11 @@ footer h1 {
     height: 200px;
     width: 600px;
     border: 5px solid rgba(0, 77, 161, 1);
+    opacity: 0.9;
+}
+
+.game:hover {
+    opacity: 1;
 }
 
 .game img {
